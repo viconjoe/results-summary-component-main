@@ -1,0 +1,391 @@
+.big-box {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#your-result {
+    color: hsl(241, 100%, 89%);
+    font-family: 'Hanken Grotesk', sans-serif;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.mother-box {
+    margin-bottom: 50px;
+}
+
+.blue-box {
+    width: 380px;
+    height: 500px;
+    background: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom:20px; 
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 35px;
+}
+#summary {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 0px;
+    margin-top: 20px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    color:black
+}
+#of-one {
+    font-size: 20px;
+    color: hsl(241, 100%, 89%);
+    font-weight: 500;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+#seven-and-six {
+    color: white;
+    margin-bottom: hsl(241, 100%, 89%);
+    font-family: 'Hanken Grotesk', sans-serif;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: -25px;
+}
+#great {
+    font-family: 'Hanken Grotesk', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 21px;
+    margin-bottom: -25px;
+    margin-top: 0px;
+}
+#paragraph{
+    font-family: 'Hanken Grotesk', sans-serif;
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 30px;
+    color: hsl(224, 30%, 85%);
+    font-size: 18px;
+}
+
+.white-box {
+    width: 290px;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: hsl(241, 100%, 89%);color: hsl(224, 30%, 27%);
+    box-shadow: 5px 5px 60px hsl(234, 98%, 90%);
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+#little-red-box {
+    width: 290px;
+    height: 50px;
+    background-color: hsl(0, 100%, 95%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 12px;
+}
+#reaction {
+    color: hsl(0, 100%, 65%);
+}
+
+#little-yellow-box {
+    width: 290px;
+    height: 50px;
+    background-color: hsl(39, 100%, 93%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 12px;
+}
+#memory {
+    color: hsl(39, 100%, 55%)
+}
+
+#little-green-box {
+    width: 290px;
+    height: 50px;
+    background-color: hsl(166, 100%, 93%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 12px;
+}
+#verbal {
+    color: hsl(166, 100%, 37%)
+}
+
+#little-violet-box {
+    width: 290px;
+    height: 50px;
+    background-color: hsl(234, 85%, 93%);color: hsl(224, 30%, 85%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 18px;
+    border-radius: 12px;
+}
+   
+#visual {
+    color: hsl(234, 85%, 45%)
+}
+
+#little-blue-box {
+    width: 290px;
+    height: 50px;
+    margin-bottom: 35px;
+    background: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 25px;
+    color: aliceblue
+}
+#continue {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.mother-box {color: hsl(241, 100%, 89%);
+    font-family: 'Hanken Grotesk', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.icon-msn {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+img {
+    margin-right: 15px
+}
+
+.number {
+    margin-right: 15px;
+    color: grey;
+    font-weight: bold;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.black {
+    color:black;
+    font-weight: bold;
+}
+
+@media (max-width:450px){
+        .body {
+            width: 450px;
+            height: 850px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .mother-box {
+            margin-right: 50px;
+        }
+
+        .big-box {
+            width: 450px;
+            height: 815px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .blue-box {
+            width: 375px;
+            height: 345px;
+            background: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+            border-radius: 0px;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .white-box {
+            width: 375px;
+            height: 470px;
+            width: 295px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            color: hsl(241, 100%, 89%);
+            color: hsl(224, 30%, 27%);
+            border: 0px;
+        }
+
+        .mother-box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 375px;
+            height: 1000px;
+            margin-bottom: 50px;
+        }
+
+        #your-result {
+            color: hsl(241, 100%, 89%);
+            font-family: 'Hanken Grotesk', sans-serif;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        
+        .circle {
+            width: 155px;
+            height: 155px;
+            
+            border-radius: 50%;
+            background: linear-gradient(180deg, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: 'Outfit', sans-serif;
+            font-size: 35px;
+        }
+        
+        #summary {
+            width: 310px;
+            height: 30px;
+            font-size: 18px;
+            font-weight: bold;
+            margin-left: 0px;
+            margin-top: 20px;
+            font-family: 'Hanken Grotesk', sans-serif;
+            color: rgb(37, 33, 33)
+        }
+        
+        #of-one {
+            font-size: 16px;
+            color: hsl(241, 100%, 89%);
+            font-weight: 500;
+            font-family: 'Hanken Grotesk', sans-serif;
+        }
+        
+        #seven-and-six {
+            color: white;
+            margin-bottom: hsl(241, 100%, 89%);
+            font-size: 60px;
+            font-family: 'Hanken Grotesk', sans-serif;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: -5px;
+        }
+        
+        #great {
+            font-family: 'Hanken Grotesk', sans-serif;
+            text-align: center;
+            color: white;
+            font-size: 16px;
+            margin-bottom: -25px;
+            margin-top: 0px;
+        }
+        
+        #paragraph {
+            font-family: 'Hanken Grotesk', sans-serif;
+            text-align: center;
+            margin-left: 45px;
+            margin-right: 45px;
+            margin-bottom: -10px;
+            color: hsl(224, 30%, 85%);
+            font-size: 16px;
+        }
+
+        .attribution {
+            width: 350px;
+            height: 20px;
+            margin-left: 30px;
+        }
+
+        #little-blue-box {
+            width: 310px;
+            height: 55px;
+            margin-bottom: 35px;
+            background: rgb(32, 37, 87);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            border-radius: 25px;
+            color: aliceblue
+        }
+        #little-red-box {
+            width: 310px;
+            height: 55px;
+            background-color: hsl(0, 100%, 95%);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            border-radius: 12px;
+        }
+    
+        #reaction {
+            color: hsl(0, 100%, 65%);
+        }
+    
+        #little-yellow-box {
+            width: 310px;
+            height: 55px;
+            background-color: hsl(39, 100%, 93%);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            border-radius: 12px;
+        }
+    
+        #memory {
+            color: hsl(39, 100%, 55%)
+        }
+    
+        #little-green-box {
+            width: 310px;
+            height: 55px;
+            background-color: hsl(166, 100%, 93%);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            border-radius: 12px;
+        }
+    
+        #verbal {
+            color: hsl(166, 100%, 37%)
+        }
+    
+        #little-violet-box {
+            width: 310px;
+            height: 55px;
+            background-color: hsl(234, 85%, 93%);
+            color: hsl(224, 30%, 85%);
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 18px;
+            border-radius: 12px;
+        }
+
+}
